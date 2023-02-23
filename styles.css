@@ -40,3 +40,7 @@ body{
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
+
+.coin img {
+  width: 145px;
+}
