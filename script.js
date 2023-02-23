@@ -4,6 +4,7 @@ let coin = document.querySelector(".coin");
 let flipBtn = document.querySelector("#flip-button");
 let resetBtn = document.querySelector("#reset-button");
 
+//Flip the coin on button click
 flipBtn.addEventListener("click", () => {
   let i = Math.floor(Math.random() * 2);
   coin.style.animation = "none";
