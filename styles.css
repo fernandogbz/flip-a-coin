@@ -73,3 +73,8 @@ body{
     transform: rotateX(2160deg);
   }
 }
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
