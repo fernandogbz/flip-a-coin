@@ -53,3 +53,6 @@ body{
           backface-visibility: hidden;
 }
 
+.tails {
+  transform: rotateX(180deg);
+}
