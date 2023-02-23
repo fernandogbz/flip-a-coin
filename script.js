@@ -22,11 +22,13 @@ flipBtn.addEventListener("click", () => {
     disableButton();
 });
 
+//Update the heads and tails count
 const updateStats = () => {
   document.querySelector("#heads-count").textContent = `Heads : ${heads}`;
   document.querySelector("#tails-count").textContent = `Tails : ${tails}`;
 }
 
+//Disable flip button till coin stops flipping
 const disableButton = () => {
   flipBtn.disabled = true;
   setTimeout(function() {
@@ -34,3 +36,10 @@ const disableButton = () => {
   }, 3000);
 }
 
+//Reset the coin and count
+resetBtn.addEventListener("click", () => {
+  coin.style.transform = "rotatex(0)";
+  heads = 0;
+  tails = 0;
+  updateStats();
+})
