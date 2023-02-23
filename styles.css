@@ -86,3 +86,8 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+#flip-button {
+  background-color: #424ae0;
+  color: #fff;
+}
