@@ -32,7 +32,6 @@ body{
 }
 
 .coin {
-  border: 1px solid black;
   height: 150px;
   width: 150px;
   position: relative;
@@ -55,4 +54,22 @@ body{
 
 .tails {
   transform: rotateX(180deg);
+}
+
+@keyframes spin-tails {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(1980deg);
+  }
+}
+
+@keyframes spin-heads {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(2160deg);
+  }
 }
