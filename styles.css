@@ -24,3 +24,10 @@ body{
   perspective: 300px;
 }
 
+.stats {
+  text-align: right;
+  color: #101020;
+  font-weight: 500;
+  line-height: 25px;
+}
+
