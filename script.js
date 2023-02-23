@@ -39,7 +39,7 @@ const disableButton = () => {
 
 //Reset the coin and count
 resetBtn.addEventListener("click", () => {
-  coin.style.transform = "rotatex(0)";
+  coin.style.animation = "none";
   heads = 0;
   tails = 0;
   updateStats();
