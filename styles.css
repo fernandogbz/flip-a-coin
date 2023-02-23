@@ -78,3 +78,11 @@ body{
   display: flex;
   justify-content: space-between;
 }
+
+button {
+  width: 120px;
+  padding: 10px 0;
+  border: 2.5px solid #424ae0;
+  border-radius: 5px;
+  cursor: pointer;
+}
