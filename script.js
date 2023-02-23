@@ -18,10 +18,18 @@ flipBtn.addEventListener("click", () => {
       }, 100);
       tails++;
     }
-    setTimeout(updateStats, 3000);
+    setTimeout(updateStats, 3000); 
+    disableButton();
 });
 
 const updateStats = () => {
   document.querySelector("#heads-count").textContent = `Heads : ${heads}`;
   document.querySelector("#tails-count").textContent = `Tails : ${tails}`;
+}
+
+const disableButton = () => {
+  flipBtn.disabled = true;
+  setTimeout(function() {
+    flipBtn.disabled = false;
+  }, 3000);
 }
